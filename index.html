@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <header class="site-header">
+    <div class="container header-inner">
+
+      <div class="brand">
+        <a href="#home" class="logo">
+          <img src="./Logo.png" alt="Gentize Logo" />
+        </a>
+      </div>
+
+      <button class="menu-toggle" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="main-nav">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+
+          <!-- Services with dropdown -->
+          <li class="nav-dropdown" aria-haspopup="true" aria-expanded="false">
+            <a href="#services" class="dropdown-toggle" role="button" aria-controls="services-dropdown"
+              aria-expanded="false">
+              Services <span class="caret">▾</span>
+            </a>
+            <div id="services-dropdown" class="dropdown-menu" aria-hidden="true">
+              <a href="#service-medical">Medical Illustration</a>
+              <a href="#service-books">Book Publishing</a>
+              <a href="#service-digital">Digital Services</a>
+              <a href="#service-design">Design Services</a>
+              <a href="#service-ecom">Ecommerce Website Development</a>
+              <a href="#service-scan">Document Scanning & Digitalization</a>
+              <a href="#service-auto">Automated Software Tools</a>
+              <a href="#service-lms">Course Building (LMS) Solutions</a>
+              <a href="#service-ocr">Scanning & OCR</a>
+            </div>
+          </li>
+
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#consult">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <a href="#consult" class="btn btn-primary">Enquiry</a>
+      </div>
+
+    </div>
+  </header>
+
+  <section id="home" class="hero">
+
+    <div class="hero-image"></div>
+
+    <!-- SLIDE 1 -->
+    <div class="hero-content slide active">
+      <small class="eyebrow">Book Publishing & Creation</small>
+      <h1>Transform Your Ideas into Published Masterpieces</h1>
+      <p>Delivering world-class professional services to bring your imagination into engaging masterpieces.</p>
+      <a href="#" class="btn1 btn-primary">Get Started</a>
+    </div>
+
+    <!-- SLIDE 2 -->
+    <div class="hero-content slide">
+      <small class="eyebrow">Medical Illustration</small>
+      <h1>Bring complex concepts to life with stunning medical visuals</h1>
+      <p>Our medical illustrations and animations make complex healthcare topics easy to understand, whether for
+        research, education, or marketing.</p>
+      <a href="#" class="btn1 btn-primary">Explore Medical Services</a>
+    </div>
+
+    <!-- SLIDE 3 -->
+    <div class="hero-content slide">
+      <small class="eyebrow">Document Scanning & Digitalization</small>
+      <h1>Transform Your Paper Records Into Digital Power</h1>
+      <p>Convert physical documents into secure, searchable digital files for faster access and improved efficiency.</p>
+      <a href="#" class="btn1 btn-primary">Explore Scanning Services</a>
+    </div>
+
+    <!-- SLIDE 4 -->
+    <div class="hero-content slide">
+      <small class="eyebrow">Design Services</small>
+      <h1>Build Visual Identities That Stand Out</h1>
+      <p>We craft creative and impactful visuals that elevate your brand and make your message unforgettable.</p>
+      <a href="#" class="btn1 btn-primary">View Design Work</a>
+    </div>
+
+    <!-- SLIDE 5 -->
+    <div class="hero-content slide">
+      <small class="eyebrow">Digital Services</small>
+      <h1>Boost Your Online Presence With Smart Digital Solutions</h1>
+      <p>Enhance visibility, attract customers, and grow with tailored digital strategies built for modern businesses.
+      </p>
+      <a href="#" class="btn1 btn-primary">Discover Digital Solutions</a>
+    </div>
+
+    <!-- SLIDE 6 -->
+    <div class="hero-content slide">
+      <small class="eyebrow">Ecommerce Development</small>
+      <h1>Create Seamless Shopping Experiences That Convert</h1>
+      <p>We develop secure, fast, and user-friendly ecommerce platforms that drive consistent sales and engagement.</p>
+      <a href="#" class="btn1 btn-primary">Start Your Store</a>
+    </div>
+
+    <!-- SLIDE 7 -->
+    <div class="hero-content slide">
+      <small class="eyebrow">Automated Software Solutions</small>
+      <h1>Automate Workflows To Save Time & Improve Accuracy</h1>
+      <p>Custom automation tools designed to streamline operations, reduce errors, and boost productivity.</p>
+      <a href="#" class="btn1 btn-primary">Explore Automation</a>
+    </div>
+
+    <!-- SLIDE 8 -->
+    <div class="hero-content slide">
+      <small class="eyebrow">Course Building & LMS</small>
+      <h1>Build Engaging Online Learning Experiences</h1>
+      <p>Create structured, interactive, and professional LMS platforms for learners across industries.</p>
+      <a href="#" class="btn1 btn-primary">Build Your LMS</a>
+    </div>
+
+    <!-- SLIDE 9 -->
+    <div class="hero-content slide">
+      <small class="eyebrow">Scanning & OCR Services</small>
+      <h1>Convert Documents Into Searchable Digital Data</h1>
+      <p>OCR-powered scanning turns text into usable, editable digital content with remarkable accuracy.</p>
+      <a href="#" class="btn1 btn-primary">View OCR Services</a>
+    </div>
+
+
+  </section>
+
+  <section id="expertise" class="expertise">
+    <div class="container">
+      <h2 class="section-title">Unleashing Creativity with Unmatched Expertise</h2>
+
+      <div class="cards-row">
+
+        <article class="feature-card">
+          <img src="Book Publishing.png" alt="">
+          <div class="card-overlay">
+            <h3>Book Publishing</h3>
+            <p>End-to-end book production & publishing services.</p>
+          </div>
+        </article>
+
+        <article class="feature-card">
+          <img src="Digitalization.png" alt="">
+          <div class="card-overlay">
+            <h3>Digitalization</h3>
+            <p>Document scanning, OCR and digital asset delivery.</p>
+          </div>
+        </article>
+
+        <article class="feature-card">
+          <img src="Medical Illustration.png" alt="">
+          <div class="card-overlay">
+            <h3>Creative & Medical Arts</h3>
+            <p>Illustrations and medical artwork for publications.</p>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="about-solutions">
+    <div class="container about-inner">
+      <div class="about-image">
+        <!-- we'll use background + circular mask -->
+        <img src="About Us.png" alt="team" />
+      </div>
+
+      <div class="about-content">
+        <p>About Us</p>
+        <h2>Providing solutions to enhance your business</h2>
+        <p>Our team members got 25 years of experience in total. At Gentize Innovations, we are dedicated to bringing
+          your ideas to life with creativity, precision, and expertise.</p>
+
+        <div class="mini-cards">
+
+          <div class="mini-card circle-card">
+            <div class="circle" data-percent="95">
+              <svg>
+                <circle cx="50" cy="50" r="45"></circle>
+                <circle cx="50" cy="50" r="45"></circle>
+              </svg>
+              <div class="circle-text">95%</div>
+            </div>
+            <strong>User-Friendly Workflow</strong>
+          </div>
+
+          <div class="mini-card circle-card">
+            <div class="circle" data-percent="97">
+              <svg>
+                <circle cx="50" cy="50" r="45"></circle>
+                <circle cx="50" cy="50" r="45"></circle>
+              </svg>
+              <div class="circle-text">97%</div>
+            </div>
+            <strong>Transparent Process in Every Step</strong>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="consult" class="consult-section">
+    <div class="consult-bg" aria-hidden="true"></div>
+
+    <div class="container consult-inner">
+      <!-- LEFT: text overlay (inside image area) -->
+      <div class="consult-left">
+        <small class="consult-label">CONSULTATION</small>
+        <h2 class="consult-title">Get a Free Consultation For Next Project</h2>
+        <p class="consult-sub">The best way to start your business right now — tell us about your project.</p>
+        <a href="#contact" class="btn start-deal" aria-label="Start business deals">Start Business Deals</a>
+      </div>
+
+      <!-- RIGHT: floating form card -->
+      <form class="consult-form" id="consultForm" aria-labelledby="form-heading">
+        <div class="form-inner">
+          <h3 id="form-heading">Get Started Today</h3>
+          <p class="muted">Feel Free to Reach Us</p>
+
+          <label class="form-row">
+            <span class="sr-only">Full name</span>
+            <input type="text" name="fullname" placeholder="Full name" required />
+          </label>
+
+          <label class="form-row">
+            <span class="sr-only">Mobile number</span>
+            <input type="tel" name="phone" placeholder="Mobile number" required />
+          </label>
+
+          <label class="form-row">
+            <span class="sr-only">Needed service</span>
+            <select name="service" required>
+              <option value="" disabled selected>Needed service</option>
+              <option>Document Scanning & Digitalization</option>
+              <option>Design Services</option>
+              <option>Digital Services</option>
+              <option>Ecommerce Website Development</option>
+              <option>Automated Software Solutions</option>
+              <option>Course Building / LMS</option>
+              <option>Scanning & OCR</option>
+            </select>
+          </label>
+
+          <label class="form-row">
+            <span class="sr-only">Email address</span>
+            <input type="email" name="email" placeholder="Your email address" required />
+          </label>
+
+          <button type="submit" class="btn btn-primary submit-btn">Submit Now</button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <section id="services" class="solutions glass-section">
+    <div class="container">
+      <h2 class="section-title3">Our Solutions</h2>
+
+      <div class="glass-grid">
+
+        <div class="glass-card">
+          <div class="card-img">
+            <img src="Ecom icon.png" alt="Ecom Development">
+          </div>
+          <h4>Ecom Development</h4>
+          <p>Expert Ecommerce Website development services to create seamless, user-friendly digital experiences
+            tailored to your needs.</p>
+        </div>
+
+        <div class="glass-card">
+          <div class="card-img">
+            <img src="Digital Service Icon.png" alt="Digital Services">
+          </div>
+          <h4>Digital Services</h4>
+          <p>Comprehensive digital services to elevate your brand, enhance online presence, and drive growth through
+            innovative solutions.</p>
+        </div>
+
+        <div class="glass-card">
+          <div class="card-img">
+            <img src="Automated Software Icon.png" alt="Automated Software">
+          </div>
+          <h4>Automated Software</h4>
+          <p>Streamline your processes with our automated solutions, boosting efficiency and reducing human error in
+            operations.</p>
+        </div>
+
+        <div class="glass-card">
+          <div class="card-img">
+            <img src="Course Design LMS icon.png" alt="Course Building (LMS)">
+          </div>
+          <h4>Course Building (LMS)</h4>
+          <p>Create structured and interactive courses to empower learners.</p>
+        </div>
+
+        <div class="glass-card">
+          <div class="card-img">
+            <img src="Design Services Icon.png" alt="Design Services">
+          </div>
+          <h4>Design Services</h4>
+          <p>Transform your vision into stunning visuals and enhance brand identity.</p>
+        </div>
+
+        <div class="glass-card">
+          <div class="card-img">
+            <img src="Accessibility Services Icon.png" alt="Accessibility Services">
+          </div>
+          <h4>Accessibility Services</h4>
+          <p>Specialized features to help individuals with disabilities access digital content.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="experts-v2">
+    <div class="container experts-v2-inner">
+
+      <!-- LEFT CONTENT -->
+      <div class="experts-v2-left">
+        <h2>We are Certified Subject Matter Experts</h2>
+        <p>Leverage our expertise to provide insightful, accurate solutions for your specialized service needs.</p>
+
+        <div class="exp-bullets">
+          <div class="exp-bullet">
+            <span class="icon">✔</span> Innovative Approach on Projects
+          </div>
+          <div class="exp-bullet">
+            <span class="icon">✔</span> Dedicated Project Managers
+          </div>
+          <div class="exp-bullet">
+            <span class="icon">✔</span> Flexible Environment
+          </div>
+        </div>
+
+        <a href="#contact" class="btn-exp">CONTACT NOW</a>
+      </div>
+
+      <!-- RIGHT VISUAL CIRCLE -->
+      <div class="experts-v2-right">
+
+        <!-- MAIN CIRCLE IMAGE -->
+        <div class="circle-center">
+          <img src="Main_Circle_Image.png" alt="team" />
+        </div>
+
+        <!-- FLOATING SMALL IMAGES -->
+        <img class="float-img img1" src="Float_Image_1.png" alt="">
+        <img class="float-img img2" src="Float_Image_2.png" alt="">
+        <img class="float-img img3" src="Float_Image_3.png" alt="">
+
+        <!-- COUNTER -->
+        <div class="expert-counter">
+          <span class="num" data-target="80">0</span>+
+          <p>Partners Worldwide</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="showcase">
+
+    <!-- Background Image -->
+    <img src="./ChatGPT Image Nov 21, 2025, 08_50_31 PM.png" alt="Creative Team" class="showcase-bg" />
+
+    <!-- Dark Overlay -->
+    <div class="overlay"></div>
+
+    <!-- Content on Top -->
+    <div class="container content-box">
+      <h2 class="section-title1">
+        Passionate creatives delivering innovative, impactful designs and solutions.
+      </h2>
+
+      <div class="tabs">
+        <button class="tab-btn active" data-tab="pre">Pre-production</button>
+        <button class="tab-btn" data-tab="prod">Production</button>
+        <button class="tab-btn" data-tab="post">Post-production</button>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="scan-box">
+    <div class="scan-container">
+
+      <div class="scan-left">
+        <h5>Secure and Rapid Conversion</h5>
+        <h2>Efficient Scanning and Digitalization for Seamless Access</h2>
+        <p>
+          We offer high-quality scanning and digitalization services,
+          converting physical documents and images into accessible,
+          editable digital formats for easy storage, preservation, and
+          efficient access.
+        </p>
+        <a href="#contact" class="scan-btn">CONTACT US</a>
+      </div>
+
+      <div class="scan-right">
+        <img src="Data flow.png" alt="Scanning Visual">
+      </div>
+
+    </div>
+  </section>
+
+  <section class="reviews-section">
+    <div class="container reviews-grid">
+
+      <!-- LEFT SIDE – FAQ ACCORDION -->
+      <div class="faq-box">
+        <h2 class="section-title5">Frequently Asked Questions</h2>
+
+        <div class="faq-item">
+          <button class="faq-question">What services does Gentize Innovations offer?</button>
+          <div class="faq-answer">
+            We offer book publishing, medical illustrations, animations, branding, packaging
+            design, digital marketing, infographics, and more, providing comprehensive creative
+            solutions for businesses and individuals.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">How do I get started with a project at Gentize Innovations?</button>
+          <div class="faq-answer">
+            Contact us via email or our website. We'll discuss your needs, provide a custom quote,
+            and guide you through the entire process to ensure satisfaction.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">What makes Gentize Innovations different from others?</button>
+          <div class="faq-answer">
+            We offer tailored solutions, creative excellence, and industry expertise in medical,
+            publishing, branding, and digital marketing, ensuring high-quality, results-driven projects
+            with personalized collaboration.
+          </div>
+        </div>
+      </div>
+
+      <!-- RIGHT SIDE – TESTIMONIAL SLIDER -->
+      <div class="testimonial-box">
+        <h2 class="section-title4">Our Awesome Customer</h2>
+
+        <div class="testimonial-slider">
+
+          <!-- Slide 1 -->
+          <div class="testimonial-slide active">
+            <img src="https://www.gentizeinnovations.com/assets/images/home1/t2.png" alt="Mark Smith">
+            <h4>Mark Smith</h4>
+            <p class="role">Medical Educator</p>
+            <p class="review">
+              Excellent medical illustration services! Gentize Innovations delivered clear,
+              accurate visuals that enhanced my educational content. Their expertise and communication
+              made the entire experience smooth and highly satisfactory.
+            </p>
+          </div>
+
+          <!-- Slide 2 -->
+          <div class="testimonial-slide">
+            <img src="https://www.gentizeinnovations.com/assets/images/home1/t1.png" alt="Matt Sanchzi">
+            <h4>Matt Sanchzi</h4>
+            <p class="role">Independent Author</p>
+            <p class="review">
+              Gentize Innovations made publishing my book incredibly easy. Their team is professional,
+              supportive, and detail-oriented. I’m thrilled with the final product and highly recommend
+              their publishing services.
+            </p>
+          </div>
+
+        </div>
+
+        <!-- Slider Buttons -->
+        <button class="test-prev">‹</button>
+        <button class="test-next">›</button>
+
+      </div>
+
+    </div>
+  </section>
+
+  <section id="blog" class="posts slider-style">
+    <div class="container">
+      <h2 class="section-title2">Latest Blogs</h2>
+
+      <div class="carousel">
+        <div class="carousel-track">
+
+          <!-- Slide 1 -->
+          <div class="slide1">
+            <img src="Slide 1.png" alt="">
+            <h3>The Hidden Power of Visual Identity: How Good Design Drives Business Growth | Gentize Innovations</h3>
+          </div>
+
+          <!-- Slide 2 -->
+          <div class="slide2">
+            <img src="Slide 2.png" alt="">
+            <h3>The Psychology of Color in Branding: How Gentize Innovations Helps You Choose the Right Palette for
+              Impact</h3>
+          </div>
+
+          <!-- Slide 3 -->
+          <div class="slide3">
+            <img src="Slide 3.png" alt="">
+            <h3>Why Illustration-Based Branding Is Becoming a Global Trend | Gentize Innovations</h3>
+          </div>
+
+        </div>
+        <button class="manual-btn prev">&#10094;</button>
+        <button class="manual-btn next">&#10095;</button>
+      </div>
+    </div>
+  </section>
+
+
+  <footer class="gentize-footer">
+    <div class="footer-container">
+
+      <!-- About -->
+      <div class="footer-col">
+        <h4>About GenTize</h4>
+        <p>We offer high-quality Illustration, Animation, scanning and digitalization services,
+          converting physical documents and images into accessible, editable digital formats
+          for easy storage, long-term preservation, and efficient access.</p>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="footer-col1">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <!-- Services -->
+      <div class="footer-col2">
+        <h4>Our Services</h4>
+        <ul>
+          <li>App Development</li>
+          <li>Digital Services</li>
+          <li>Automated Software</li>
+          <li>Course Building (LMS)</li>
+          <li>Scanning & Digitalization</li>
+          <li>Design Services</li>
+        </ul>
+      </div>
+
+      <!-- Contact Info -->
+      <div class="footer-col3">
+        <h4>Contact Info</h4>
+        <p>No9, 2nd Floor Saravana Complex,<br>
+          Service Road, Paraniputhur,<br>
+          Chennai, Tamil Nadu 600128</p>
+
+        <p>Email: <a href="mailto:info@gentizeinnovations.com">info@gentizeinnovations.com</a></p>
+        <p>Phone: <a href="tel:+917200990203">+91 7200990203</a></p>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      © 2025 GenTize Innovations. All rights reserved.
+    </div>
+  </footer>
+
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
